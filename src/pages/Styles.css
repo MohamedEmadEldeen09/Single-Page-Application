@@ -1,0 +1,56 @@
+.container{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Home{
+    background-color: chocolate;
+}
+.About{
+    background-color : olive;
+}
+.Blog{
+    background-color : rgb(149, 149, 209);
+}
+
+.Header{
+   display: grid;
+   grid-template-columns: repeat(auto-fit , minmax(300px,1fr));
+   background-color: crimson;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: font-size 0.3s;
+}
+a:hover{
+    font-size: 25px;
+}
+li{
+    list-style: none;
+}
+#Logo{
+    color: white;
+    font-weight: bold;
+}
+#nav{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(70px,1fr));
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+nav{
+    text-align: center;
+}
+.Footer{
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+    color : White
+}
+.active{
+    box-shadow: 2px 2px 2px 2px yellow;
+}
